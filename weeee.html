@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Website - Design</title>
+    <div>
+        <border-color></border-color>
+    </div>
+    <link rel="stylesheet" href="style.css">
+    <meta http-equiv="refresh" content="20" ;>
+
+</head>
+
+<body>
+    <section class="header">
+        <div class="nav-links" id="navlinks">
+            <i class="fas fa-times" onclick="hideMenu()"></i>
+
+            <div class="main">
+
+            </div>
+            <ul><br><br>
+                <li><a href="weeee.html">HOME</a></li>
+                <!-- <li><a href="#team">TEAM</a></li> -->
+                <li><a href="categories.html">CATEGORIES</a></li>
+                <li><a href="aboutus.html">ABOUT US</a></li>
+                <li><a href="feedbackk.html">FEEDBACK</a></li>
+                <li><a href="signin.html">SIGN IN</a></li>
+            </ul>
+            <h3>
+                <marquee style="background-color: whitesmoke;">Welcome Bees! Keep on updating yourself with NEWZBEE.</marquee>
+            </h3>
+
+        </div>
+        <i class="fas fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+
+        <div class="text-box">
+            <h1>Newzzz Bee <br><img src="beee.jpeg" width="40" height="40"></h1><br>
+            <h2>Lets Acknowledge Ourself With First Draft Of History:News</h2>
+            <br><br>
+            <a href="#course" class="hero-btn">Scroll for getting updated with NEWS</a>
+        </div>
+    </section>
+    <!-- ------------------course-------- -->
+
+
+    <section id="course" class="course">
+        <h1><u>News Type</u></h1>
+
+        <div class="row">
+            <div class="course-col">
+                <h3>NATIONAL</h3>
+                <p>National news refers to news stories and events that are of significance and relevance to an entire nation or country.<br> These news stories typically cover a wide range of topics, including politics, government, economics, social issues,
+                    culture, and events that have a broad impact on the country as a whole.</p>
+            </div>
+            <div class="course-col">
+                <h3>INTERNATIONAL</h3>
+                <p>International news refers to news stories and events that are of global significance and relevance. <br> These news stories typically cover events, developments, and issues that transcend national borders and impact countries and people
+                    around the world.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- -----------Gallary------------ -->
+
+    <section id="campus" class="campus">
+        <h1><u>Categories</u></h1>
+        <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio dolore, repellendus molestiae nulla repellat ea harum ducimus minus sit ad quae adipisci perspiciatis omnis cum officia corporis pariatur iste culpa.</p> -->
+        <div class="row">
+            <div class="campus-col">
+                <img src="indi.jpg">
+                <a href="https://www.bing.com/news/search?q=India&nvaug=%5bNewsVertical+Category%3d%22rt_India%22%5d&FORM=NSBABR">
+                    <div class="layer">
+                        <h3>INDIA</h3>
+                    </div>
+                </a>
+                <div class="desc">
+                    <h2>INDIA</h2>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="SPORTS.jpeg">
+                <a href="https://www.bing.com/news/search?q=Sports&nvaug=%5bNewsVertical+Category%3d%22rt_Sports%22%5d&FORM=NSBABR">
+                    <div class="layer">
+                        <h3>SPORTS</h3>
+                    </div>
+                </a>
+            </div>
+            <div class="campus-col">
+                <img src="poli.jpeg">
+                <a href="https://www.bing.com/news/search?q=Politics&nvaug=%5bNewsVertical+Category%3d%22rt_Politics%22%5d&FORM=NSBABR">
+                    <div class="layer">
+                        <h3>POLITICS</h3>
+                    </div>
+                </a>
+            </div>
+            <div class="campus-col">
+                <img src="world.jpeg">
+                <a href="https://www.bing.com/news/search?q=World&nvaug=%5bNewsVertical+Category%3d%22rt_World%22%5d&FORM=NSBABR">
+                    <div class="layer">
+                        <h3>WORLD</h3>
+                    </div>
+                </a>
+            </div>
+            <BR>
+            <div class="campus-col">
+                <img src="busi.jpg">
+                <a href="https://www.bing.com/news/search?q=Business&nvaug=%5bNewsVertical+Category%3d%22rt_Business%22%5d&FORM=NSBABR">
+                    <div class="layer">
+                        <h3>BUSINESS</h3>
+                    </div>
+                </a>
+            </div>
+            <div class="campus-col">
+                <img src="enter.jpeg">
+                <a href="https://www.bing.com/news/search?q=Entertainment&nvaug=%5bNewsVertical+Category%3d%22rt_Entertainment%22%5d&FORM=NSBABR">
+                    <div class="layer">
+                        <h3>ENTERTAINMENT</h3>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+</body>
+</section>
+</div>
+
+</div>
+
+
+
+<!-- -----------------call to action----------- -->
+
+<section class="cta">
+    <a href="feedbackk.html" class="hero-btn">Kindly give feedbacks</a>
+</section>
+
+<!-- ------------footer----------------- -->
+<section id="footer" class="footer">
+
+    <head>
+        <title>Add copyright symbol</title>
+    </head>
+
+    <body>
+        <h2>Thank You For Visiting NEWSBEE</h2>
+        <p>© Copyright, NEWSBEE</p>
+    </body>
+</section>
+<!-- ------------Java script for toggle menu -------------- -->
+<script>
+    var navlinks = document.getElementById("navlinks");
+
+    function showMenu() {
+        navlinks.style.right = "0";
+    }
+
+    function hideMenu() {
+        navlinks.style.right = "-200px";
+    }
+</script>
+
+</body>
+
+</html>
