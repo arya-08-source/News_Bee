@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Text Case Converter</title>
+</head>
+
+<body>
+    <form>
+        <label for="text-input">Enter text:</label>
+        <input type="text" id="text-input" name="text-input">
+        <button type="button" onclick="convertToUppercase()">Convert to Uppercase</button>
+    </form>
+
+    <script>
+        function convertToUppercase() {
+            var textElement = document.getElementById("text-input");
+            var textValue = textElement.value;
+
+            if (textValue !== "") {
+                // Check if the text is in lowercase
+                if (textValue === textValue.toLowerCase()) {
+                    // Convert to uppercase
+                    textElement.value = textValue.toUpperCase();
+                }
+            }
+        }
+    </script>
+</body>
+
+</html>
